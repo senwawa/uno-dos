@@ -2,7 +2,7 @@
 A MS-DOS with Linux Terminal functions recreation on an Arduino Uno.
 
 # requirements
-MicroSD Card Adapter with CS on D10
+MicroSD Card Adapter with CS on D10, 
 Serial Monitor
 
 # Whats the purpose of this?
