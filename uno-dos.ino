@@ -203,3 +203,13 @@ void mkdir(const char* folderName) {
     Serial.println("");
   }
 }
+
+void rmdir(const char* folderName) {
+  if (SD.rmdir(folderName)) {
+    Serial.println("Folder removed successfully: " + String(folderName));
+    Serial.println("");
+  } else {
+    Serial.println("Error removing folder: " + String(folderName));
+    Serial.println("");
+  }
+}
